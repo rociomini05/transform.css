@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Titulo del Documento</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+      .o1{
+        width:300px;
+        height:300px;
+        background-color:#ff0b38;
+       transition:3s;         
+
+}
+      .o1:hover{
+            
+         filter: hue-rotate(90deg);
+
+        transform: rotate(20deg);
+      }
+       .o2{
+        width:300px;
+        height:300px;
+        background-color:#f33d61;  
+       transition:3s;
+     }
+      .o2:hover{
+       
+         transform: skewY(20deg);
+           filter: grayscale(50%);
+      }
+      .o3{
+        width:300px;
+        height:300px;
+        background-color:#daa0b2;
+                 transition:3s;
+
+   
+      }
+      .o3:hover{
+        transform: scaleY(0.5);     
+        filter: blur(5px);
+      }
+      .o4{
+        width:300px;
+        height:300px;
+        background-color:#3dd3c7;
+         transition:3s; 
+}
+      .o4:hover{
+        filter: hue-rotate(-80deg);
+        transform: rotate(-90deg);
+               
+      }
+       .o5{
+        width:300px;
+        height:300px;
+        background-color:#98dd1e;  
+                 transition:3s;
+
+      }
+      .o5:hover{
+         transform: skewX(20deg);
+        filter: grayscale(30%);
+
+        
+      }
+      .o6{
+        width:300px;
+        height:300px;
+        background-color:#f27c1a;
+                 transition:3s;
+
+   
+      }
+      .o6:hover{
+ 
+        transform: scaleX(1.5);
+       filter: blur(5px);
+      }
+      
+    </style>
+
+  </head>
+  <body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <div class="row">
+            <div class="col-sm-4">
+              <h4>Transform Rotate</h4>
+              <br>
+              <div class="o1">
+                
+              </div>
+             </div> 
+
+            <div class="col-sm-4"> 
+              <h4>Transform SkewY</h4>
+              <br>
+              <div class="o2"></div>
+            </div> 
+
+            <div class="col-sm-4"> 
+              <h4>Transform ScaleY</h4>
+              <br>
+              <div class="o3"></div>
+            </div>     
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+       <div class="container">
+      <div class="row">
+            <div class="col-sm-4">
+              <h4>Transform Rotate</h4>
+              <br>
+              <div class="o4">
+                
+              </div>
+             </div> 
+
+            <div class="col-sm-4"> 
+              <h4>Transform SkewX</h4>
+              <br>
+              <div class="o5"></div>
+            </div> 
+
+            <div class="col-sm-4"> 
+              <h4>Transform ScaleX</h4>
+              <br>
+              <div class="o6"></div>
+            </div>     
+      </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
